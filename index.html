@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waxom</title>
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="fonts/raleway/raleway.css">
     <link rel="stylesheet" href="fonts/montserrat/montserrat.css">
     <link rel="stylesheet" href="css/style.css">
@@ -30,8 +32,43 @@
                 <li class="header-menu-item"><a class="header-menu-link" href="#">Shortcodes</a></li>
                 <li class="header-menu-item"><a class="header-menu-link" href="#">Contact</a></li>
             </nav>
-            <img src="img/svg/basket.svg" alt="basket" width="18px" height="24px">
-            <img src="img/svg/search.svg" alt="search" width="24px" height="24px">
+            <button class="header-button-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18"
+                    height="24" viewBox="0 0 20 27">
+                    <path
+                        d="M15.995483,4.9985275 C15.995483,4.9985275 14.496216,4.9985275 14.496216,4.9985275 C14.496216,3.3417358 12.483032,1.998188 9.998779,1.998188 C7.5144043,1.998188 5.5009766,3.3417358 5.5009766,4.9985275 C5.5009766,4.9985275 4.001831,4.9985275 4.001831,4.9985275 C2.3458252,4.9985275 1.0032959,6.3412437 1.0032959,7.997204 C1.0032959,7.997204 1.0032959,22.995163 1.0032959,22.995163 C1.0032959,24.651123 2.3458252,25.994255 4.001831,25.994255 C4.001831,25.994255 15.995483,25.994255 15.995483,25.994255 C17.651611,25.994255 18.994263,24.651123 18.994263,22.995163 C18.994263,22.995163 18.994263,7.997204 18.994263,7.997204 C18.994263,6.3412437 17.651611,4.9985275 15.995483,4.9985275 ZM9.998779,3.4983559 C11.655029,3.4983559 12.99707,3.96241 12.99707,4.9985275 C12.99707,4.9985275 7.000244,4.9985275 7.000244,4.9985275 C7.000244,3.96241 8.342651,3.4983559 9.998779,3.4983559 ZM17.494995,22.995163 C17.494995,23.823143 16.823486,24.494087 15.995483,24.494087 C15.995483,24.494087 4.001831,24.494087 4.001831,24.494087 C3.173584,24.494087 2.5024414,23.823143 2.5024414,22.995163 C2.5024414,22.995163 2.5024414,21.495407 2.5024414,21.495407 C2.5024414,21.495407 17.494995,21.495407 17.494995,21.495407 C17.494995,21.495407 17.494995,22.995163 17.494995,22.995163 ZM17.494995,19.99524 C17.494995,19.99524 2.5024414,19.99524 2.5024414,19.99524 C2.5024414,19.99524 2.5024414,7.997204 2.5024414,7.997204 C2.5024414,7.168808 3.173584,6.497452 4.001831,6.497452 C4.001831,6.497452 5.5009766,6.497452 5.5009766,6.497452 C5.5009766,6.497452 5.5009766,10.997543 5.5009766,10.997543 C5.5009766,10.997543 7.000244,10.997543 7.000244,10.997543 C7.000244,10.997543 7.000244,6.497452 7.000244,6.497452 C7.000244,6.497452 12.99707,6.497452 12.99707,6.497452 C12.99707,6.497452 12.99707,10.997543 12.99707,10.997543 C12.99707,10.997543 14.496216,10.997543 14.496216,10.997543 C14.496216,10.997543 14.496216,6.497452 14.496216,6.497452 C14.496216,6.497452 15.995483,6.497452 15.995483,6.497452 C16.823975,6.497452 17.494995,7.168808 17.494995,7.997204 C17.494995,7.997204 17.494995,19.99524 17.494995,19.99524 Z" />
+                </svg>
+            </button>
+            <button class="header-button-search">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="24">
+                    <path
+                        d="M23.762,22.681 L17.569,16.586 C19.190,14.825 20.187,12.494 20.187,9.929 C20.186,4.443 15.668,-0.002 10.093,-0.002 C4.519,-0.002 0.001,4.443 0.001,9.929 C0.001,15.416 4.519,19.862 10.093,19.862 C12.502,19.862 14.711,19.028 16.446,17.644 L22.663,23.763 C22.966,24.062 23.458,24.062 23.761,23.763 C24.065,23.464 24.065,22.979 23.762,22.681 ZM10.093,18.334 C5.377,18.334 1.553,14.572 1.553,9.929 C1.553,5.288 5.377,1.525 10.093,1.525 C14.810,1.525 18.633,5.288 18.633,9.929 C18.633,14.572 14.810,18.334 10.093,18.334 Z" />
+                </svg>
+            </button>
+        </div>
+        <div class="carusel">
+            <a href="#" class="carusel-btn">
+                <div class="carusel-btn-left"></div>
+            </a>
+            <div class="carusel-txt">
+                <h2 class="header-carusel-h2">Unique and Modern Design</h2>
+                <h1 class="header-carusel-h1">Portfolio PSD Template</h1>
+                <p class="header-carusel-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imper-<br>diet
+                    doming id quod mazim placerat facer possim assum.</p>
+                <button class="header-carusel-button">Get started</button>
+            </div>
+            <a href="#" class="carusel-btn">
+                <div class="carusel-btn-right"></div>
+            </a>
+            <div class="carusel-pagination">
+                <a href="#" class="carusel-pagination-item"></a>
+                <a href="#" class="carusel-pagination-item"></a>
+                <a href="#" class="carusel-pagination-item"></a>
+                <a href="#" class="carusel-pagination-item"></a>
+                <a href="#" class="carusel-pagination-item"></a>
+            </div>
         </div>
     </header>
 </div>

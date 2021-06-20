@@ -158,3 +158,6 @@
   [hidden] {
     display: none;
   }
+  button {
+    padding: 0;
+  }
