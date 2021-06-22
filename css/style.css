@@ -1,96 +1,96 @@
 .wrapper {
-max-width: 1920px;
-width: 100%;
-margin: 0 auto;
-box-sizing: border-box;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
-/* start header */
+/* header start */
 .header {
-width: 100%;
-background-image: url(../img/main_bg_photo_1.png);
-background-repeat: no-repeat;
-min-height: 1024px;
-padding: 40px 150px;
-box-sizing: border-box;
-background-size: cover;
+    width: 100%;
+    background-image: url(../img/main_bg_photo_1.png);
+    background-repeat: no-repeat;
+    min-height: 1024px;
+    padding: 40px 150px;
+    box-sizing: border-box;
+    background-size: cover;
 }
 .header-head {
-display: flex;
-max-width: 1180px;
-margin: 0 auto 285px;
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto 285px;
 
 }
 .logo {
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 181px;
-text-decoration: none;
-color: #fff;
-margin-right: 219px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 219px;
 }
 .logo-svg {
-fill: currentColor;
+    fill: currentColor;
 }
 .logo-txt {
-font-family: Raleway;
-font-size: 34px;
-font-weight: 400;
-text-align: right;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right;
 }
 .logo:hover{
-color: #c7b299;
+    color: #c7b299;
 }
 .header-menu {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 .header-menu-item {
-list-style-type: none;   
-margin-right: 30px;
+    list-style-type: none;   
+    margin-right: 30px;
 }
 .header-menu-item:last-child {
-margin-right: 63px;
+    margin-right: 63px;
 }
 .header-menu-link {
-text-decoration: none;
-font-family: Montserrat;
-font-size: 14px;
-line-height: 1.2;
-font-weight: 300;
-color: #ffffff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
 }
 .header-menu-link:hover {
-color: #c7b299;
+    color: #c7b299;
 }
 .header-menu-link:active {
-color: #fff;
+    color: #fff;
 }
 .header-button-basket{
-margin-right: 28px;
+    margin-right: 28px;
 }
 .header-button-basket, .header-button-search{
-border: none;
-background-color: transparent;
-outline: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 .header-button-basket svg, .header-button-search svg {
-fill: #fff;
+    fill: #fff;
 }
 
 .header-button-basket:hover svg, .header-button-search:hover svg {
-fill: #c7b299;
+    fill: #c7b299;
 }
 
 .header-button-basket:active svg, .header-button-search:active svg{
-fill: #fff;
+    fill: #fff;
 }
 .carusel {
     margin: 0 auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }  
 .carusel-btn {
     margin: auto 0;
@@ -170,8 +170,76 @@ justify-content: space-between;
     background-color: #998675;
 }
 .carusel-pagination{
-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 329px;
 }
 .carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-right: 9px;
+}
+.carusel-pagination-item:last-child {
+    margin-right: 0;
+}
+.carusel-pagination-item:hover {
+    background-color: transparent;
+    border: 2px solid #d3c1ad;
+    transform: scale(1.2);
+}
+/* header end */
+/* project-cards section start */
+.project-cards {
+    display: flex;
+    padding: 80px 377px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.project-card {
+    max-width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
 
+.project-card-title {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+    margin-top: 30px;
+}
+.project-card-txt {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 19px 0 30px;
+}
+.project-card-span {
+    width: 70px;
+    border-bottom: 3px solid #f1eee9;
+}
+.project-card svg {
+    fill: #555555;
+}
+.project-card:hover .project-card-span {
+    border-bottom: 3px solid #c7b299;
+}
+.project-card:hover svg {
+    fill: #c7b299;
+}
+.project-card:hover .project-card-title {
+    color: #c7b299;
 }
