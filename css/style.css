@@ -243,3 +243,88 @@
 .project-card:hover .project-card-title {
     color: #c7b299;
 }
+/* project-cards section end */
+/* ideas section start */
+.ideas {
+    background-color: #fbfaf8;
+    min-height: 700px;
+    padding: 83px 345px 0;
+    box-sizing: border-box;
+}
+.ideas-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+}
+.ideas-txt {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-align: center;
+    max-width: 770px;
+    margin: 24px auto 40px;
+}
+.ideas-img {
+    width: 100%;
+    min-height: 482px;
+    background-image: url(../img/ideas_center.png),
+        url(../img/ideas_left.png),
+        url(../img/ideas_right.png);
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
+}
+/* ideas section end */
+/* marketing block start */
+.marketing {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 375px;
+    min-height: 150px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+}
+.marketing-title {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.marketing-title span {
+    color: #c7b299;
+}
+.marketing-txt {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+.marketing-button {
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.marketing-button:hover {
+    color: #998675;
+    background-color: #fff;
+    border: 3px solid #998675;
+}
+.marketing-button:active {
+    color: #fff;
+    background-color: #998675;
+}
+/* marketing block end */
