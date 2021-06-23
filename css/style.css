@@ -328,3 +328,133 @@
     background-color: #998675;
 }
 /* marketing block end */
+/* laters projects section start */
+.laters-projects {
+    padding: 80px 375px;
+}
+.laters-projects-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+}
+.laters-projects-txt {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-align: center;
+    max-width: 760px;
+    margin: 24px auto 40px;
+}
+.laters-projects-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.laters-projects-button {
+    width: 120px;
+    height: 32px;
+    background-color: rgba(17,17,17,0.0);
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+.laters-projects-button:first-child {
+    width: 70px;
+    background-color: #998675;
+    color: #ffffff;
+    border: none;
+}
+.laters-projects-button:last-child {
+    margin-right: 0;
+    width: 135px;
+}
+.laters-projects-cards-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.laters-projects-card {
+    margin-bottom: 30px;
+}
+.laters-projects-card-img {
+    width: 370px;
+    height: 237px;
+    background-color: #8c8c8c;
+}
+.projects-img-1 {
+    background-image: url(../img/projects_1.png);
+}
+.projects-img-2 {
+    background-image: url(../img/projects_2.png);
+}
+.projects-img-3 {
+    background-image: url(../img/projects_3.png);
+}
+.projects-img-4 {
+    background-image: url(../img/projects_4.png);
+}
+.projects-img-5 {
+    background-image: url(../img/projects_5.png);
+}
+.projects-img-6 {
+    background-image: url(../img/projects_6.png);
+}
+.laters-projects-card-txt {
+    padding: 30px;
+    background-color: #fbfaf8;
+    position: relative;
+    box-sizing: border-box;
+}
+.laters-projects-card-txt:before {
+    content: "";
+    border: 15px solid transparent; 
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: -25px;
+    left: 19px;
+  }
+.laters-projects-card-h3 {
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+    margin-bottom: 14px;
+}
+.laters-projects-card-h4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+.laters-projects-card:hover .laters-projects-card-img {
+    filter: brightness(30%);
+}
+
+.laters-projects-card:hover .laters-projects-card-txt {
+    background-color: #362f2d;
+}
+.laters-projects-card:hover .laters-projects-card-h3 {
+    color: #ffffff;
+}
+.laters-projects-card:hover .laters-projects-card-h4 {
+    color: #c7b299;
+}
+.laters-projects-card:hover .laters-projects-card-txt:before {
+    border-bottom: 10px solid #362f2d;
+}
+.laters-projects-card-search svg, .laters-projects-card-href svg {
+    fill: #ffffff;
+}
+/* laters projects section end */
