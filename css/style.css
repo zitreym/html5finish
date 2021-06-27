@@ -354,6 +354,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+
 }
 .laters-projects-button {
     width: 120px;
@@ -385,14 +386,12 @@
 }
 .laters-projects-card {
     margin-bottom: 30px;
+    position: relative;
 }
 .laters-projects-card-img {
     width: 370px;
     height: 237px;
     background-color: #8c8c8c;
-}
-.projects-img-1 {
-    background-image: url(../img/projects_1.png);
 }
 .projects-img-2 {
     background-image: url(../img/projects_2.png);
@@ -438,6 +437,26 @@
     font-weight: 300;
     color: #d1d1d1;
 }
+.laters-projects-card-btn-link, .laters-projects-card-btn-search  {
+    display: none;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 106px;
+}
+.laters-projects-card-btn-link {
+    background-image: url(../img/link.svg);
+    left: 145px;
+}
+.laters-projects-card-btn-search {
+    background-image: url(../img/seacrh.svg);
+    right: 145px;
+}
 .laters-projects-card:hover .laters-projects-card-img {
     filter: brightness(30%);
 }
@@ -454,7 +473,46 @@
 .laters-projects-card:hover .laters-projects-card-txt:before {
     border-bottom: 10px solid #362f2d;
 }
-.laters-projects-card-search svg, .laters-projects-card-href svg {
-    fill: #ffffff;
+.laters-projects-card:hover .laters-projects-card-btn-link {
+    display: block;
+}
+.laters-projects-card:hover .laters-projects-card-btn-search {
+    display: block;
+}
+.laters-projects-card-btn-link:hover {
+    background-image: url(../img/link-hover.svg);
+}
+.laters-projects-card-btn-search:hover {
+    background-image: url(../img/seacrh-hover.svg);
+}
+.laters-projects-card-btn-link:active {
+    background-image: url(../img/link.svg);
+}
+.laters-projects-card-btn-search:active {
+    background-image: url(../img/seacrh.svg);
+}
+.laters-projects-button-end {
+    border: none;
+    display: block;
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 10px auto 0;
+}
+.laters-projects-button-end:hover {
+    color: #998675;
+    background-color: #fff;
+    border: 3px solid #998675;
+}
+.laters-projects-button-end:active {
+    color: #fff;
+    background-color: #998675;
 }
 /* laters projects section end */
