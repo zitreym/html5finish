@@ -4,6 +4,9 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+button {
+    cursor: pointer;
+}
 /* header start */
 .header {
     width: 100%;
@@ -100,6 +103,9 @@
     height: 73px;
     background-image: url(../img/carusel-left.svg);
     background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 } 
 .carusel-btn-left:hover{
     background-image: url(../img/carusel-left-hover.svg);
@@ -110,6 +116,9 @@
     height: 73px;
     background-image: url(../img/carusel-right.svg);
     background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 } 
 .carusel-btn:hover .carusel-btn-right{
     background-image: url(../img/carusel-right-hover.svg);
@@ -196,10 +205,10 @@
 /* project-cards section start */
 .project-cards {
     display: flex;
-    padding: 80px 377px;
+    padding: 80px 20px;
     box-sizing: border-box;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-end; 
 }
 .project-card {
     max-width: 268px;
@@ -378,6 +387,9 @@
 .laters-projects-button:last-child {
     margin-right: 0;
     width: 135px;
+}
+.laters-projects-button:hover {
+    border: 2px solid #998675;
 }
 .laters-projects-cards-wrp {
     display: flex;
@@ -864,7 +876,7 @@
     margin-right: 8px;
     background-size: cover;
     border: none;
-    background-color: none;
+    background-color: transparent;
 }
 .recent-posts-button-right {
     background: url(../img/right_rp.png) #ffffff;
